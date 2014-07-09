@@ -25,6 +25,9 @@ Another scary thing this hosts file partially blocks is trackers. Trackers are b
 
 (NB: I said, "partially blocks is trackers," because I feel as though it doesn't do it as well as it should. It is something I am working on.)
 
+#### Are there any negative side effects?
+No. There are a few websites that do not work if certian hosts are disabled, but those hosts are unblocked by default for compatibility purposes. I suggest you edit your copy of this hosts file accordingly. If any website is completely broken from this hosts file you probably shouldn't want to use it anyway.
+
 #### How do I install it?
 
 If you are on Linux/BSD you will need root access. I have no idea how OS X works but you'll probably need root or administrative rights for that as well.
@@ -34,11 +37,12 @@ If you are on Windows you will need Administrator access for versions after XP.
 Simply copy (and replace) this hosts file over your current one.
 
 ##### Windows
-The hosts file is located at `C:\System32\drivers\etc\hosts`
+The hosts file is located at `C:\Windows\System32\drivers\etc\hosts`
 
 ##### *NIX
 The hosts file is located at `/etc/hosts`
 
+<hr>
 
 ### `127.0.0.1` vs `0.0.0.0`
 
