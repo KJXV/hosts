@@ -1,21 +1,19 @@
 # KJ's Hosts File
 
-**This hosts file currently contains 540015 unique entries.**
+**This hosts file currently contains 540015 unique entries**, and coalesces them from these resources:
+* [Dan Pollock's Hosts File](http://winhelp2002.mvps.org/hosts.htm)
+* [hpHosts' Host File](http://hosts-file.net/)
+* [MDL's Host File](http://http://www.malwaredomainlist.com/hostslist/hosts.txt)
+* [mVPS' Hosts File](http://winhelp2002.mvps.org/hosts.htm)
+* [Peter Lowe's Host File](http://pgl.yoy.org/adservers/)
 
-This hosts file coalesces hosts from these resources:
- - [Dan Pollock's Hosts File](http://winhelp2002.mvps.org/hosts.htm)
- - [hpHosts' Host File](http://hosts-file.net/)
- - [MDL's Host File](http://http://www.malwaredomainlist.com/hostslist/hosts.txt)
- - [mVPS' Hosts File](http://winhelp2002.mvps.org/hosts.htm)
- - [Peter Lowe's Host File](http://pgl.yoy.org/adservers/)
+I try to keep my amalgamated hosts file as up-to-date as possible with its respective sources; sometimes this happens, sometimes it doesn't. I feel like it usually gets updated every few months or so.
 
- I try to keep my amalgamated hosts file as up-to-date as possible with its respective sources; sometimes this happens, sometimes it doesn't. I feel like it usually gets updated every few months or so.
-
- <hr>
+<hr>
 
 ### FAQ
 
- #### What's it do?
+#### What's it do?
 The initial purpose of a hosts file was to map hostnames to IP addresses. This was back in the days before the [DNS](https://en.wikipedia.org/wiki/Dns) was even a thing, meaning that if you wanted to connect to any computer, you had to place its IP and an associated name within your hosts file.
 This approach isn't viable in today's age. Could you imagine having to manually place the IP of any server you wanted to visit in your hosts file?
 Though this type of hostname assignment is really limited to company intranets today, it still serves as an interesting, out-of-the-box method to block unwanted connections. Instead of having `74.125.225.41 google.com` which will direct you to Google's website, if you wanted to block Google you could write `127.0.0.1 google.com` which says that Google is located right on your computer. Since Google is most definitely not located your computer, it returns with nothing.
