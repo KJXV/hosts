@@ -1,5 +1,7 @@
 # KJ's Hosts File
 
+**This hosts file currently contains 540015 unique entries.**
+
 This hosts file coalesces hosts from these resources:
  - [Dan Pollock's Hosts File](http://winhelp2002.mvps.org/hosts.htm)
  - [hpHosts' Host File](http://hosts-file.net/)
