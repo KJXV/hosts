@@ -1,11 +1,12 @@
 # KJ's Hosts File
 
-**This hosts file currently contains 540015 unique entries**, and coalesces them from these resources:
+**This hosts file currently contains a little over 1077521 unique entries**, and coalesces them from these resources:
 * [Dan Pollock's Hosts File](http://winhelp2002.mvps.org/hosts.htm)
 * [hpHosts' Host File](http://hosts-file.net/)
 * [MDL's Host File](http://http://www.malwaredomainlist.com/hostslist/hosts.txt)
 * [mVPS' Hosts File](http://winhelp2002.mvps.org/hosts.htm)
 * [Peter Lowe's Host File](http://pgl.yoy.org/adservers/)
+* Maybe some other places? Who knows.
 
 I try to keep my amalgamated hosts file as up-to-date as possible with its respective sources; sometimes this happens, sometimes it doesn't. I feel like it usually gets updated every few months or so.
 
@@ -26,7 +27,7 @@ Another scary thing this hosts file partially blocks is trackers. Trackers are b
 (NB: I said, "partially blocks is trackers," because I feel as though it doesn't do it as well as it should. It is something I am working on.)
 
 #### Are there any negative side effects?
-No. There are a few websites that do not work if certian hosts are disabled, but those hosts are unblocked by default for compatibility purposes. I suggest you edit your copy of this hosts file accordingly. If any website is completely broken from this hosts file you probably shouldn't want to use it anyway.
+No. There are a few websites that do not work if certain hosts are disabled, but those hosts are unblocked by default for compatibility purposes. I suggest you edit your copy of this hosts file accordingly. If any website is completely broken from this hosts file you probably shouldn't want to use it anyway.
 
 #### How do I install it?
 
@@ -39,6 +40,8 @@ Simply copy (and replace) this hosts file over your current one.
 ##### Windows
 The hosts file is located at `C:\Windows\System32\drivers\etc\hosts`
 
+You'll also need to [disable](http://support.simpledns.com/kb/a61/disabling-the-windows-dns-client-service.aspx) the [ridiculous DNS cache nonsense](https://support.microsoft.com/en-us/kb/200525) Windows does.
+
 ##### *NIX
 The hosts file is located at `/etc/hosts`
 
@@ -46,4 +49,4 @@ The hosts file is located at `/etc/hosts`
 
 ### `127.0.0.1` vs `0.0.0.0`
 
-People like to fight about this. I swear its almost to the levels of vi and emacs (vi is better btw). I use `0.0.0.0` or even better just `0`. I recommend this because it takes up *much* less space. If you don't like it, that sucks. Also see [this](http://www.dslreports.com/forum/remark,16790135), [this](http://it.slashdot.org/comments.pl?sid=1743902&cid=33147664), [this](http://social.technet.microsoft.com/Forums/windows/en-US/3ffc0193-01de-4ebe-bbd9-ac4c933466e4/this-host-0000-vs-localhost-127001?forum=w7itpronetworking), and [this](http://stackoverflow.com/questions/3693434/what-is-the-difference-between-starting-a-server-binding-to-0-0-0-0-vs-127-0-0-1#3693443)
+People like to fight about this. I use `0.0.0.0` or even better just `0`. I recommend this because it takes up *much* less space. If you don't like it, that sucks. Also see [this](http://www.dslreports.com/forum/remark,16790135), [this](http://it.slashdot.org/comments.pl?sid=1743902&cid=33147664), [this](http://social.technet.microsoft.com/Forums/windows/en-US/3ffc0193-01de-4ebe-bbd9-ac4c933466e4/this-host-0000-vs-localhost-127001?forum=w7itpronetworking), and [this](http://stackoverflow.com/questions/3693434/what-is-the-difference-between-starting-a-server-binding-to-0-0-0-0-vs-127-0-0-1#3693443)
