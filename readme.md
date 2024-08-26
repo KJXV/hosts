@@ -1,11 +1,12 @@
 # KJ's Hosts File
 
-**This hosts file currently contains a little over 1077521 unique entries**, and coalesces them from these resources:
+**This hosts file currently contains a little over 1,231,167 unique entries**, and coalesces them from these resources:
 * [Dan Pollock's Hosts File](http://winhelp2002.mvps.org/hosts.htm)
 * [hpHosts' Host File](http://hosts-file.net/)
 * [MDL's Host File](http://http://www.malwaredomainlist.com/hostslist/hosts.txt)
 * [mVPS' Hosts File](http://winhelp2002.mvps.org/hosts.htm)
 * [Peter Lowe's Host File](http://pgl.yoy.org/adservers/)
+* [Steven Black’s Host File](https://github.com/StevenBlack/hosts)
 * Maybe some other places? Who knows.
 
 I try to keep my amalgamated hosts file as up-to-date as possible with its respective sources; sometimes this happens, sometimes it doesn't. I feel like it usually gets updated every few months or so.
